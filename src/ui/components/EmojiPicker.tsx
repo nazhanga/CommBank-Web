@@ -11,9 +11,9 @@ export default function EmojiPicker(props: Props) {
   return (
     <Picker
       theme={theme}
-      showPreview={false}
-      showSkinTones={false}
-      onClick={props.onClick}
+      showPreview={true}
+          showSkinTones={true}
+          onClick={props.onClick}
       color="primary"
     />
   )
